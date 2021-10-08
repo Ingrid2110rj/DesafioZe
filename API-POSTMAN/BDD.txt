@@ -1,0 +1,20 @@
+BDD
+    Cenário: Busca por CEP válido
+        Dado que requisito uma busca pelo cep "21555500"
+        Então devo ter o status "200"
+        E devo ter a "rua" como "Rua Coruripe "
+        E devo ter o "bairro" como "Marechal Hermes"
+        E devo ter o "cidade" como "Rio de janeiro"
+       
+        
+    Cenário: Busca por CEP inexistente
+        Dado que requisito uma busca pelo cep "0000000"
+        Então devo ter o status "404"
+
+    Cenário: Busca sem passar CEP
+        Dado que requisito uma busca sem passar um cep
+        Então devo ter o status "404"
+
+    Cenário: Busca com CEP em formato inválido
+        Dado que requisito uma busca pelo cep "casa"
+        Então devo ter o status "404"
