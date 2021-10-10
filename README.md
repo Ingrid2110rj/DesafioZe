@@ -34,7 +34,7 @@
 - Acesso ao Twitter
 - Acesso ao Instagram
 
-## POSTMAN (API)
+## TESTE API CORREIOS - POSTMAN E CYPRESS
 
 ### Etapas da Automação:
 
