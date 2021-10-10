@@ -1,42 +1,41 @@
 ![Logo](https://github.com/Ingrid2110rj/DesafioZe/blob/main/logocorreta.jpeg)
 
-# Desafio Zé
+# Desafio Zé Delivery
 
+### Etapas da Automação-Cypress:
 
-## Cypress
-
-### Etapas da Automação:
-
-##### CADASTRO
+##### :triangular_flag_on_post:CADASTRO
 
 - CPF
-- Maioridade (Análise de valor limite)
-- Precisa ter 8 caracteres ou mais(Partição de equivalência)
-- Precisa ter 1 letra minúscula ou mais (Partição de equivalência)
-- Precisa ter 1 número ou mais (Partição de equivalência)
-- Precisa ter 1 caracter especial %$#@ ou mais (Partição de equivalência)
-- Criar uma conta válida (Partição de equivalência)
+- Maioridade 
+- Precisa ter 8 caracteres ou mais
+- Precisa ter 1 letra minúscula ou mais 
+- Precisa ter 1 número ou mais 
+- Precisa ter 1 caracter especial %$#@ ou mais 
+- Criar uma conta válida 
 
-##### LOGIN
+##### :triangular_flag_on_post: LOGIN
  - Tentar logar com a senha errada
  - Tentar logar com o e-mail errado
  - Tentar logar com os dados válidos
 
-##### BUSCA
+##### :triangular_flag_on_post: BUSCA
 - Buscar produto e validar o nome dele
 
-##### CARRINHO
+##### :triangular_flag_on_post: CARRINHO
 - Validar preço e nome do produto
 
-##### VALIDAR LINKS DAS REDES SOCIAIS
+##### :triangular_flag_on_post: VALIDAR LINKS DAS REDES SOCIAIS
 
 - Acesso ao Facebook
 - Acesso ao Twitter
 - Acesso ao Instagram
 
-## TESTE API CORREIOS - POSTMAN E CYPRESS
+---
 
-### Etapas da Automação:
+## TESTE API CORREIOS 
+
+### Etapas da Automação - Postman e Cypress:
 
 ##### GET
 
