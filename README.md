@@ -31,7 +31,6 @@
 - Acesso ao Twitter
 - Acesso ao Instagram
 
----
 
 ## TESTE API CORREIOS 
 
